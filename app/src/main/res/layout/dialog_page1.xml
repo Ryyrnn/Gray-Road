@@ -1,0 +1,218 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription=""
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_1" />
+
+
+    <LinearLayout
+        android:id="@+id/pictureContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <!-- Left Character Image -->
+            <ImageView
+                android:id="@+id/characterImage1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="Character 1 Image"
+                android:gravity="start"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mc_cum" />
+
+            <View
+                android:id="@+id/spacerView"
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/characterImage2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="Character 2 Image"
+                android:gravity="end"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pued_normal2" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/dialogOptionsContainerWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+            <ImageView
+                android:id="@+id/dialogOptionsBorder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="Border behind dialog options container"
+                android:src="@drawable/dialog_border3"
+                android:scaleType="fitXY"
+                android:layout_marginTop="-20dp" />
+
+            <LinearLayout
+                android:id="@+id/dialogOptionsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="60dp"
+                    android:fontFamily="@font/thaisanslite_r1"
+                    android:textColor="@color/red"
+                    android:text="@string/test"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="60dp"
+                    android:fontFamily="@font/thaisanslite_r1"
+                    android:text="@string/test"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:layout_marginTop="0dp"/>
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/blackScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/dialogOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <!-- Left Button -->
+        <FrameLayout
+            android:id="@+id/Option1Layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/option_border"
+                android:contentDescription="Option 1 Button"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/option1Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/thaisanslite_r1"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:text="Option 1"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Space between Buttons -->
+        <View
+            android:id="@+id/blankSpace"
+            android:layout_width="180dp"
+            android:layout_height="match_parent" />
+
+        <!-- Right Button -->
+        <FrameLayout
+            android:id="@+id/Option2Layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/option_border"
+                android:contentDescription="Option 2 Button"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/option2Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/thaisanslite_r1"
+                android:gravity="center"
+                android:text="Option 2"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/changeTextButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#00FF0000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <View
+        android:id="@+id/black_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

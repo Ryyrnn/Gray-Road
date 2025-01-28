@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">361_menu</string>
+    <string name="menu_name">Hatofu Boyfriend(Logo)</string>
+    <string name="bt_newstory">NEW STORY</string>
+    <string name="bt_start">START</string>
+    <string name="bt_exit">EXIT</string>
+
+    <string name="test">Test</string>
+    <string name="s1_d">The three of them are in the university lab room as the sky outside begins to darken. The fluorescent lights flicker slightly. Tae and the Nong Time are working while Pued stands by, offering distant moral support.</string>
+    <string name="w"> Tae: "Oh my god, I don't want to do it anymore..."</string>
+    <string name="w_a1"> Tae: "Hurry up! I can't take it anymore..."</string>
+    <string name="w1">Nong Time: "Wait, let me write the lab plan a little more... It's almost done, can you please stop rushing me? I've forgotten!"</string>
+    <string name="w2">Tae: "It’s almost six already. They’re going to lock the building soon!"</string>
+    <string name="w3">Pued: Smiling coldly, "If you get stuck in the building, you’ll be in trouble. Especially with all the strange rumors about this place lately..."</string>
+    <string name="w4">Nong Time: "Alright, just a moment! Give me two more minutes."</string>
+    <string name="w5">Nong Time: "Ugh... This *Erebus odora*, a large moth with skull-like patterns—why did Professor Songsit make us study this? It’s so damn difficult!"</string>
+
+    <string name="s3_d">A faint knocking sound comes from the door before the guard appears from the shadowy corridor behind it. Suddenly, there are faint footsteps from the hallway outside the lab, but the three pay no attention.</string>
+    <string name="w6">Guard: "Hey kids, why are you still here? It’s late, you know. I need to lock the doors before I go home."</string>
+    <string name="w7">Tae: "Oh, we got caught up with the lab work. We’re about to leave, sir."</string>
+    <string name="w8">Guard: "There have been strange reports in this building recently. Let me warn you,Under no circumstances..."</string>
+    <string name="w8_a1">Guard: "Shouldn't you go to the back door right now."</string>
+    <string name="w9">Nong Time: "Umm...Uhh...Thanks for the warning, sir!"</string>
+    <string name="w10">Tae: "Hey, Nong Time, we should leave now. They’re going to close the building soon!"</string>
+    <string name="w11">Pued: "The guard just warned us, man. Let’s not push it."</string>
+    <string name="w12">Nong Time: "Just a little more! I’m almost done. Let me wrap this up quickly."</string>
+
+
+
+    <string name="c1_w1">Tae: "Oh no, Nong Time! Look, the lights are out. They must be about to lock the building. Let’s hurry and get out of here."</string>
+    <string name="c1_w2">Nong Time: "Damn it! I didn’t save my work. Forget it, let’s go. Which way do you think we should leave?"</string>
+    <string name="c1_w3">Pued: "Why don’t we check the front door first?"</string>
+    <string name="c1_w4">Tae: With a panicked expression, "I think the front door’s a good idea, but if it’s locked, we can check the back door."</string>
+    <string name="c1_w5">Nong Time: "Umm..."</string>
+    <string name="c1_w5_a1">Nong Time: "Alright, let’s check the front door first..."</string>
+    <string name="c1_s6">"There was a sign on the guard's desk that said, "I will come and pee soon.""</string>
+    <string name="c1_w6">Tae: "Where the hell did the guard go?"</string>
+    <string name="c1_w7">Tae: "What do we do, Nong Time? Should we look for the guard or check the back door?"</string>
+    <string name="c1_w8">Go to the bathroom</string>
+    <string name="c1_w9">Check the back door</string>
+    <string name="c1_w10">Nong Time: "I think we should go to the bathroom first. The guard mentioned he might be there."</string>
+    <string name="c1_w11">Tae: "Do you smell something weird? It smells like... water..."</string>
+    <string name="c1_w12">Nong Time: "Oh no! What is that? It's red...?"</string>
+    <string name="c1_w13">Pued: "Don’t touch it if you don’t want trouble..."</string>
+    <string name="c1_w14">"Tae: Would you like to taste it? It might be Hell Blue Boy's red juice."</string>
+    <string name="c1_w15">Taste it mistery red stuff</string>
+    <string name="c1_w16">Don\t taste it</string>
+    <string name="c1_w15_1">Nong Time: "Oh god, this is underwear soaked in cum water!!" *about to puke*</string>
+    <string name="c1_w15_2">Tae: Whoa, wait... I mean, go wash your hand right now!</string>
+    <string name="c1_w15_3">Pued: "I told you not to touch it! Damn it, I knew there was something weird about it."</string>
+    <string name="c1_w15_4">Nong Time: "Whatever, just keep it, I guess. But for now, let's get out of here..."</string>
+    <string name="c1_s9_d">As they leave the bathroom, a thin, bony cat emerges from the corner. It stares at them with an unsettling gaze.</string>
+
+    <!-- Chapter 2 -->
+    <string name="c2_pued_dialog_1">Pued: "The guard isn’t in the bathroom. Let’s head back to the front door."</string>
+    <string name="c2_mc_dialog_1">Nong Time: "You lead the way. I don’t want to go first."</string>
+    <string name="c2_tae_dialog_1">Tae: "But I don’t know the way… Alright, let’s try this."</string>
+
+    <string name="c2_scene_12_title">"While walking there.. They didn't realize that they were going in the wrong direction."</string>
+    <string name="c2_tae_dialog_2">Tae: "Damn! Did you hear something? It’s like something’s following us!"</string>
+    <string name="c2_mc_dialog_2">Nong Time: "Shhh… It sounds like footsteps."</string>
+    <string name="c2_pued_dialog_2">Pued: "Oh no, this is the back door! We’re going the wrong way!"</string>
+
+
+    <string name="c2_scene_13_desc">Suddenly, Brother To appears at the end of the hallway, staring sharply at them.</string>
+    <string name="c2_ricardo_dialog_1">Brother To: "Oh… You’re still here, boys. How about releasing some testosterone with me, little guys?"</string>
+    <string name="c2_tae_dialog_3">Tae: "Whoa! He’s a creep! Run!!"</string>
+
+    <string name="c2_scene_14_desc">Everyone tries to run, but Brother To’s incredible calves make escape impossible. They look for ways to hide as he gets closer.</string>
+    <string name="c2_scene_14_desc1">"Little boys, you can't escape me. Come and hug me tight, little boyyyyyys."</string>
+
+    <string name="c2_hide_choice">Where do you want to hide?</string>
+    <string name="c2_hide_friend_choice">Who do you want to hide behind?</string>
+    <string name="c2_hide_pued">Hide behind Pued</string>
+    <string name="c2_hide_tae">Hide behind Tae</string>
+    <string name="c2_hide_item_choice">Hide in the vending machine</string>
+
+    <!-- Route A1 (Tae Path) -->
+    <string name="c2_tae_route_dialog_1">Tae: "We have no choice now! Do we have anything to fight him with?"</string>
+    <string name="c2_mc_dialog_3">Nong Time: "Yeah, we have no choice. I’ve got something that might work."</string>
+    <string name="c2_mc_action_kick">Nong Time: "You, Tae!" *kicks*</string>
+    <string name="c2_pued_reaction_1">Pued: "Nooo! Aaaghhh!!"</string>
+    <string name="c2_pued_reaction_2">The final scream of Pued before it fell silent...</string>
+    <string name="c2_ricardo_dialog_2">Brother To: "Oh, come on. Put up more of a fight, boys. Don’t run away from my embrace."</string>
+    <string name="c2_mc_thoughts">Nong Time: "Damn it! I need to do something!"</string>
+    <string name="c2_use_item_choice">Use an item</string>
+    <string name="c2_no_item_choice">Don’t use an item</string>
+    <string name="c2_mc_transform_hk">Nong Time: "Transform into Hentai Kamen!"</string>
+    <string name="c2_ricardo_reaction_hk">Brother To: "That’s… Hentai Boy!! Nooo, am I about to lose my manhood now, boy?"</string>
+    <string name="c2_end_ricardo">*Dies from the Nong Time’s Hentai Boy power*</string>
+
+    <!-- Chapter 3 -->
+    <string name="c3_scene_16_desc">After an exhausting fight, they temporarily escape Brother To and head toward the guard’s office for the key to the exit.</string>
+    <string name="c3_mc_dialog_key">Nong Time: "We have no choice, Tae. We need to find the guard’s key."</string>
+    <string name="c3_tae_dialog_exit">Tae: "Alright! Let’s hurry to the front door. We need to get out of here!"</string>
+    <string name="c3_tae_suggestion_search">Tae: "Let’s check the guard’s desk. There might be something useful."</string>
+
+    <string name="c3_scene_18_desc">Tae suddenly shows the Nong Time the key while stepping closer to him.</string>
+    <string name="c3_tae_dialog_reveal">Tae: "Nong Time… I’m sorry, but I don’t think you’re getting out of here."</string>
+    <string name="c3_mc_dialog_shock">Nong Time: (shocked) "What?! What are you talking about, Tae? Aren’t we friends?!"</string>
+    <string name="c3_tae_dialog_twist">Tae: (chuckling) "Friends… Yeah, I thought we’d always be friends. But not anymore."</string>
+
+    <string name="c3_tae_confession">Tae: "You don’t get it, do you? I’m doing this because I love you, Nong Time."</string>
+    <string name="c3_mc_dialog_confused">Nong Time: "What? What do you mean by that?"</string>
+    <string name="c3_tae_obsession">Tae: "I’m sure you’ll fall for me… Won’t you?"</string>
+    <string name="c3_mc_realization">Nong Time: "Don’t tell me!"</string>
+    <string name="c3_tae_boss_reveal">Tae: "That’s right. I’m the boss of gay. I don’t want you to leave. I want you to stay… here… with me… forever."</string>
+
+    <string name="c3_tae_final_choice">If you want to leave, you’ll have to make a choice.</string>
+    <string name="c3_tae_choice_surrender">Surrender</string>
+    <string name="c3_tae_choice_resist">Resist</string>
+
+    <string name="c3_surrender_dialog_1">Nong Time: (pauses) "I… I guess I don’t have a choice, do I?"</string>
+    <string name="c3_surrender_dialog_2">Nong Time: "Fine… Just go easy on me."</string>
+    <string name="c3_tae_dialog_obsessive">Tae: "Hmm… I’ll make sure you never forget me. We’ll be together forever. No one will ever take you from me."</string>
+    <string name="c3_surrender_end">In the end, Nong Time gave up his manhood to Tae to save his life. From that day on, no one ever saw the boys from Building 5 again…</string>
+
+    <string name="c3_resist_dialog_1">Nong Time: "No way! I’m not letting you do this, Tae!"</string>
+    <string name="c3_resist_dialog_2">Tae: "Oh, you’ll resist, huh? Then I’ll force you to feel my masculinity."</string>
+    <string name="c3_resist_dialog_3">Nong Time: "No! Aaahhh! I can’t take it anymore!"</string>
+    <string name="c3_resist_end">In the end, no one ever saw the boys from Building 5 again…</string>
+
+
+    <string name="c1_w15_end">Died from contracting coronavirus AIDS from a cat.\n<b>GameOver</b></string>
+    <string name="c1_w9_a">Finally, after that day at LC. 5, no one saw the young students again...\n<b>GameOver</b></string>
+    <string name="c2_w10_7_a">Died because of being attacked by Brother To without any means of self-defense...\n<b>GameOver</b></string>
+
+    <string name="c1_w16_1">Tae: "Whoa! Where'd that cat come from... Why does it look so creepy?"</string>
+    <string name="c1_w16_2">Pued: "Don't mess with it. Did you see its eyes? They're... they're not normal. Aaaahhh!!"</string>
+    <string name="c1_w16_3">Nong Time: I think It\'s Cute!!!!</string>
+
+    <string name="B_w19_1">"Nong Time: Why doesn't it unlock?"</string>
+    <string name="B_w19_2">"Pued: I told you it’s a fake key."</string>
+    <string name="c1_w16_2b">Ignore the cat</string>
+    <string name="c1_w16_2a">Play with the pussy</string>
+    <string name="c1_w17">Nong Time: Good bye weird looking cat.</string>
+
+    <!-- Path B1 -->
+    <string name="b1_tae_dialog_1">Tae: "We’re out of options! Got anything we can fight back with?"</string>
+    <string name="b1_mc_dialog_1">Nong Time: "Yeah, we’ve got no choice. I’ve got something that might work."</string>
+    <string name="b1_mc_action_1">Nong Time: "And that something… is *you*, Tae!"</string>
+    <string name="b1_tae_reaction_1">Tae: "No way! You’re betraying me, Nong Time?!"</string>
+    <string name="b1_brother_to_dialog_1">Bro To: "Oh, come on now! Don’t struggle, babe. Just stay in my arms, okay?"</string>
+    <string name="b1_mc_thoughts_1">Nong Time: "Oh, for crying out loud! Gotta do something already!"</string>
+    <string name="b1_mc_transform_hk">Nong Time: "Time to transform… into Hentai Kamen!"</string>
+    <string name="b1_brother_to_reaction_hk">Bro To: "Wait, what? Hentai Boy?! Noooo, does this mean… I gotta give up my manliness?!"</string>
+
+    <!-- Scene 2: Catch Your Breath -->
+    <string name="b1_scene_2_desc">After an exhausting fight, they managed to escape from Bro To—at least for now. They head off to find the guard and the key to the exit.</string>
+    <string name="b1_mc_dialog_key">Nong Time: "We’re out of options, Tae. We have to find… the guard’s key."</string>
+    <string name="b1_pued_dialog_1">Pued: "Got it! Let’s get to the front door, quick! We gotta get outta here!"</string>
+    <string name="b1_pued_suggestion_search">Pued: "Let’s check the guard’s desk. Maybe we’ll find something useful."</string>
+
+    <!-- Scene 3: The Guard’s Lies -->
+    <string name="b1_mc_dialog_2">Nong Time: "There it is! We got the key! But… ew, what’s this sticky stuff on it? Whatever, at least we got the key. Let’s get out of here before anything else happens."</string>
+    <string name="b1_guard_dialog_1">Guard: "Oh, found the key I left for you, huh? Hate to break it to ya, babe, but it’s useless. The *real* key? Yeah, it’s in my bag."</string>
+    <string name="b1_mc_dialog_3">Nong Time: "What the hell, man! Why would you do that?! We need to get out of here!"</string>
+    <string name="b1_pued_reaction_2">Pued: "No way… we’ve been played."</string>
+    <string name="b1_guard_dialog_2">Guard: *chuckles softly* "I could let you kids go, you know."</string>
+    <string name="b1_guard_dialog_3">Guard: *grinning slyly* "But, uh… there’s a little price to pay for that ‘free pass.’ You kids ready for it, baby?"</string>
+
+    <!-- Choice -->
+    <string name="b1_final_choice_title">Your Options</string>
+    <string name="b1_final_choice_1">Find the Guard</string>
+    <string name="b1_final_choice_2">Use the Key</string>
+
+    <!-- Choice Result -->
+    <string name="b1_fake_key_result_1">Nong Time: "Why the hell isn’t this key working?!"</string>
+    <string name="b1_fake_key_result_2">Pued: "Told you it’s a fake key!"</string>
+    <string name="b1_mc_dialog_4">Nong Time: *pauses and turns to Pued standing nearby* "I… I guess I’ve got no other choice, huh, Pued?"</string>
+    <string name="b1_pued_dialog_3">Pued: *nods sadly* "Sometimes surviving means giving up something… important."</string>
+
+    <!-- Surrender -->
+    <string name="b1_surrender_dialog_1">Nong Time: *silent for a moment* "I… I really have no choice, huh?"</string>
+    <string name="b1_surrender_dialog_2">Nong Time: "Fine… Just… go easy, okay?"</string>
+    <string name="b1_guard_dialog_4">Guard: "Mmm… I’ll make sure you never forget me, babe. We’ll be together forever. Nobody’s taking you away from me. Now, come on in, babe!"</string>
+    <string name="b1_guard_reveal">Guard: "Oh, by the way, I’m not actually a guard. I’m just a gay dude in a cosplay uniform. The real guards around here? Already knocked ‘em out and sent them packing. *laughs maniacally*"</string>
+    <string name="b1_mc_final_reaction">Nong Time: "Oh great… it’s happening again, huh?"</string>
+    <string name="b1_ending">And so, after that day, no one ever saw those college boys in Building B5 again...</string>
+    <string name="bt_backToMenu">Back To Menu</string>
+    <string name="c1_w15_end_2">Died because the cat saw you ignoring it, so it looked at you with its clear claws behind you</string>
+    <string name="exit_app">Exiting The App</string>
+
+</resources>

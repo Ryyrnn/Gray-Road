@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gameover"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Centered content container -->
+    <LinearLayout
+        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Game Over Image -->
+        <ImageView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gameovertext"
+            android:layout_marginHorizontal="60dp" />
+
+        <!-- Detail Text -->
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="You're noob, please try again."
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/thaisanslite_r1"/>
+
+        <!-- Back to Menu Button -->
+        <Button
+            android:id="@+id/BackTomenu"
+            android:layout_width="224dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background3"
+            android:padding="12dp"
+            android:text="@string/bt_backToMenu"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/thaisanslite_r1"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

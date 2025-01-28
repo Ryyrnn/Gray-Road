@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_2">
+
+    <!-- Floating background image -->
+    <ImageView
+        android:id="@+id/fightingImage"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/mc_choking"/> <!-- Adjust alpha for better visibility -->
+
+    <!-- Foreground content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/countdownText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: 10s"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/thaisanslite_r1"/>
+
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap anywhere to fill the bar!"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/thaisanslite_r1"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_default"
+            android:max="100"
+            android:progress="0" />
+
+        <ImageView
+            android:id="@+id/startMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ready" />
+    </LinearLayout>
+</FrameLayout>
